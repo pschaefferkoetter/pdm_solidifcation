@@ -5,9 +5,10 @@ A program that employs a strong-form meshfree collocation method for a multi-pha
 
 ## File Structure
 
+- user needs to set geometry, material properties, and disretization params in case_1_in.m file
+- case_1.sh file is used to run the program on a cluster. During exectution the **case_1.sh** will call **case_1_in.m** and **main.m** files, and generate an output folder where workspace variables can be stored for subsequent analysis and follow-on simulations.
+
 ![image](https://github.com/pschaefferkoetter/pdm_solidifcation/assets/48839550/4e699f19-7434-4ef2-9b29-1770fa1e9048)
-
-
 
 
 ## Program 
